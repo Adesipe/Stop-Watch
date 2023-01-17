@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: green;
+    font-size: 31px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.container {
+    background-color: lightgreen;
+    width: 40%;
+    height: 40%;
+    margin-top: 20%;
+}
+h2 {
+    padding: 0px 100px;
+}
+p {
+    color: white;
+    font-size: 28px;
+    padding: 0px 320px;
+}
+button {
+    background-color: green;
+    width: 150px;
+    height: 30px;
+    transition: ease 0.5sec;
+}
+button:hover {
+    color: green;
+    background-color: #f0eaea;
+}
+.subcontainer {
+    padding: 0 130px;
+    display: flex;
+}
+.quiz {
+    margin-left: 88%;
+    color: #8a2be2;
+}
+a {
+    transition: ease0.5sec;
+}
+a:hover {
+    background-color: #0000ff;
+    color: #ff0000;
+    font-size: 35px;
+}
